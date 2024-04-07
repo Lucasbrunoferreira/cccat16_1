@@ -1,9 +1,7 @@
 import crypto from "crypto";
-import express from "express";
 import pgp from "pg-promise";
+import app from './main';
 import { validate } from "./validateCpf";
-const app = express();
-app.use(express.json());
 
 app.post("/signup", async function (req, res) {
 	let result;
@@ -65,5 +63,3 @@ app.post("/signup", async function (req, res) {
 		await connection.$pool.end();
 	}
 });
-
-app.listen(3000);
