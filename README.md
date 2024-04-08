@@ -4,7 +4,14 @@
 
 > Com Rodrigo Branas: https://branas.io
 
-O código abaixa foi apresentado em src/api.ts e utilizando técnicas de clean code devemos refatora-ló.
+### Alterações
+
+Verifique o histórico de [commits](https://github.com/Lucasbrunoferreira/cccat16_1/commits/master/?author=Lucasbrunoferreira) para acompanhar a refatoração em passos.
+
+
+### Código inicial
+
+O código abaixo foi apresentado em src/api.ts para realizar a refatoração.
 
 ```ts
 import crypto from "crypto";
