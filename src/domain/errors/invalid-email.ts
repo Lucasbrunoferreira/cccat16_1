@@ -2,7 +2,7 @@ import { DomainError } from './domain-error';
 
 export class InvalidEmail extends Error implements DomainError {
   constructor() {
-    super('Email inválido!');
+    super('-2');
     this.name = 'InvalidEmail';
   }
 }

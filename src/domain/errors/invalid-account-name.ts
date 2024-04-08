@@ -2,7 +2,7 @@ import { DomainError } from './domain-error';
 
 export class InvalidAccountName extends Error implements DomainError {
   constructor() {
-    super('Nome de conta inválido!');
+    super('-3');
     this.name = 'InvalidAccountName';
   }
 }
