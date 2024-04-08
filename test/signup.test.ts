@@ -8,7 +8,7 @@ const URL = "http://localhost:3000/signup"
 
 describe('Signup', () => {
   describe('Validações de conta', () => {
-    test("Deve retornar o erro -1 caso seja um email inválido", async function () {
+    test("Deve retornar o erro -1 caso seja um CPF inválido", async function () {
       const input = {
         name: "John Doe",
         email: `john.doe${Math.random()}@gmail.com`,
